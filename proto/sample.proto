@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Test {
+    string name = 1;
+}
+
+message SampleReq {
+    bool go = 1;
+}
+message SampleResp {
+    string text = 1;
+}
